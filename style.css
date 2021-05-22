@@ -1,0 +1,39 @@
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background: gray;
+}
+
+h1,
+h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#myBtn {
+  font-size: 20px;
+  background-color: seagreen;
+  color: white;
+  font-weight: bold;
+  border-radius: 10px;
+}
+#myBtn:hover {
+  transform: scale(1.5);
+  cursor: pointer;
+}
+input {
+  border-radius: 5px;
+}
+input:focus {
+  border: 2px solid seagreen;
+  outline: seagreen;
+}
